@@ -1,5 +1,7 @@
 # Signal Geometry
 
+[![skills.sh](https://skills.sh/b/calicastle/signal-geometry)](https://skills.sh/calicastle/signal-geometry)
+
 Signal Geometry is an Agent Skill for turning one concept into a sparse abstract illustration or poster. It uses precise geometry, quiet matte fields, restrained contrast, and one legible spatial event.
 
 ![Light Signal Geometry example](skills/signal-geometry/assets/examples/01-gated-streamlines.png)
