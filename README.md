@@ -1,17 +1,27 @@
 # Signal Geometry
 
-[![skills.sh](https://skills.sh/b/calicastle/signal-geometry)](https://skills.sh/calicastle/signal-geometry)
+[![skills.sh](https://skills.sh/b/calicastle/skills)](https://skills.sh/calicastle/skills/signal-geometry)
 
 Signal Geometry is an Agent Skill for turning one concept into a sparse abstract illustration or poster. It uses precise geometry, quiet matte fields, restrained contrast, and one legible spatial event.
 
-![Light Signal Geometry example](skills/signal-geometry/assets/examples/01-gated-streamlines.png)
+![Gated streamlines](skills/signal-geometry/assets/examples/01-gated-streamlines.png)
 
-![Dark Signal Geometry example](skills/signal-geometry/assets/examples/09-crossed-routing.png)
+![Linked orbits](skills/signal-geometry/assets/examples/02-linked-orbits.png)
+
+![Relay constellations](skills/signal-geometry/assets/examples/04-relay-constellations.png)
 
 ## Install
 
+Using npm:
+
 ```sh
-pnpm dlx skills add CaliCastle/signal-geometry --skill signal-geometry
+npx skills add CaliCastle/skills --skill signal-geometry
+```
+
+Using pnpm:
+
+```sh
+pnpm dlx skills add CaliCastle/skills --skill signal-geometry
 ```
 
 ## Use
