@@ -1,6 +1,6 @@
 # Skills
 
-A collection of Agent Skills by Cali Castle.
+A collection of Agent Skills by Cali Castle. Currently includes Signal Geometry and Chalk Logic.
 
 [![skills.sh](https://skills.sh/b/calicastle/skills)](https://skills.sh/calicastle/skills/signal-geometry)
 
@@ -55,3 +55,55 @@ Rendered work includes the accepted image, its exact final prompt, and the compl
 ### License
 
 Signal Geometry and its reference images are released under the [MIT License](LICENSE).
+
+## Chalk Logic
+
+Chalk Logic is an Agent Skill for turning one concept into a quiet, wordless white-chalk illustration on a desaturated green board. It supports explanatory systems, natural processes, observed objects, and sparse editorial scenes without drifting into classroom clutter or polished digital graphics.
+
+![Noise to Signal](skills/chalk-logic/assets/examples/01-noise-to-signal.png)
+
+![A Sound Fades](skills/chalk-logic/assets/examples/03-a-sound-fades.png)
+
+![Making Space to Think](skills/chalk-logic/assets/examples/08-making-space-to-think.png)
+
+### Install
+
+Using pnpm:
+
+```sh
+pnpm dlx skills add CaliCastle/skills --skill chalk-logic
+```
+
+Using npm:
+
+```sh
+npx skills add CaliCastle/skills --skill chalk-logic
+```
+
+### Use
+
+Invoke the skill with `$chalk-logic`:
+
+```text
+Use $chalk-logic to create a quiet 16:9 wordless illustration about a heavy thought becoming easier to carry.
+```
+
+For a prompt without rendering:
+
+```text
+Use $chalk-logic in prompt-only mode for a portrait illustration explaining how a key opens a lock. No labels.
+```
+
+### Output
+
+Rendered work includes the inspected image, its exact prompt sequence, the complete composition recipe, and QA status. Prompt-only mode returns the compiled prompt and recipe without generating an image.
+
+### Requirements
+
+- Prompt-only mode works without image tools.
+- Rendered mode requires image generation and image inspection capabilities.
+- Image-free conversations route generation and inspection through an isolated worker and return file links only.
+
+### License
+
+Chalk Logic and its reference images are released under the [MIT License](skills/chalk-logic/LICENSE).
